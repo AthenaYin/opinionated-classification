@@ -1,0 +1,7 @@
+*.pyc
+/bayesans/*
+/berbayesans/*
+/svmans/*
+/featurebin/*
+/FN.txt
+/FP.txt
