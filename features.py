@@ -163,6 +163,37 @@ def wishword(wordlist):
                 return 1
     return 0
 
+def numsenword(wordlist):
+    reload(sys)
+    sys.setdefaultencoding('utf-8')
+    cc = 0
+    print wordlist
+    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'negsen.txt', 'r')
+    for line in f:
+        line = line.strip()
+        if line in wordlist:  # ignore one-character word in the wordnet
+            cc += -wordlist.count(line)
+    f.close()
+    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'possen.txt', 'r')
+#    for line in f:
+#        line = line.strip()
+#        if line in wordlist:  # ignore one-character word in the wordnet
+#            cc += wordlist.count(line)
+#    f.close()
+#    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewPosSen.txt', 'r')
+#    for line in f:
+#        line = line.strip()
+#        if line in wordlist:  # ignore one-character word in the wordnet
+#            cc += wordlist.count(line)
+#    f.close()
+#    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNegSen.txt', 'r')
+#    for line in f:
+#        line = line.strip()
+#        if line in wordlist:  # ignore one-character word in the wordnet
+#            cc += -wordlist.count(line)
+#    f.close()
+    print cc
+    return cc
 
 def getfeatures(sen):
     try:
@@ -173,16 +204,17 @@ def getfeatures(sen):
     sen = sen.strip()
     sen = '|'.join(jieba.cut(sen))
     mlist = []
-    mlist.append(senword(sen))
-    mlist.append(pronoun(sen))
+    mlist.append(numsenword(sen))
+#    mlist.append(senword(sen))
+#    mlist.append(pronoun(sen))
 #    mlist.append(claims(sen))
 #    mlist.append(claim(sen))
 #    mlist.append(claimword(sen))
-    mlist.append(opinion(sen))
-    mlist.append(digit(sen))
-    mlist.append(negword(sen))
-    mlist.append(exword(sen))
-    mlist.append(wishword(sen))
+#    mlist.append(opinion(sen))
+#    mlist.append(digit(sen))
+#    mlist.append(negword(sen))
+#    mlist.append(exword(sen))
+#    mlist.append(wishword(sen))
     return mlist
 
 # vim: sw=4 ts=4 sts=4 expandtab

@@ -2,30 +2,30 @@
 # -*- coding: utf-8 -*-
 import xml.etree.ElementTree as ET
 from features import getfeatures
-from svm import getopn
+from count import getopn
 import os
 
 
-RAW_FILES = os.listdir('rawdata/')
+RAW_FILES = os.listdir('ans/')
 
 
 for filename in RAW_FILES:
     print 'in execute.py ' + filename
-    tree = ET.parse('rawdata/' + filename)
+    tree = ET.parse('ans/' + filename)
     root = tree.getroot()
     for child in root:
         for childd in child:
             if childd.tag != 'sentence':
                 continue
             if childd.text is None:
-                childd.attrib['opinionated'] = 'N'
+                childd.attrib['polarity'] = 'NEG'
                 continue
             wlist = getfeatures(childd.text)
             if getopn(wlist):
-                childd.attrib['opinionated'] = 'Y'
+                childd.attrib['polarity'] = 'POS'
             else:
-                childd.attrib['opinionated'] = 'N'
-    tree.write('svmans/' + filename)
+                childd.attrib['polarity'] = 'NEG'
+    tree.write('count1ans/' + filename)
 
 
 

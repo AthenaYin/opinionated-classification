@@ -1,0 +1,345 @@
+<Result>
+<weibo id="15415">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="6" target_polarity_1="NEG" target_word_1="90&#21518;&#24403;&#25945;&#25480;">#90&#21518;&#24403;&#25945;&#25480;#&#26080;&#35821;&#20013;&#12290;</sentence>
+<sentence id="2" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">&#19981;&#36807;&#19981;&#38169;&#21734;&#12290;</sentence>
+<sentence id="3" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">90&#21518;&#30340;&#20154;&#25165;&#12290;</sentence>
+<sentence id="4" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">/&#21487;&#29233;</sentence>
+</weibo>
+<weibo id="15424">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="6" target_polarity_1="POS" target_word_1="90&#21518;&#24403;&#25945;&#25480;">#90&#21518;&#24403;&#25945;&#25480;#&#21734;&#20063;&#65292;&#22826;&#24069;&#20102;&#65292;</sentence>
+</weibo>
+<weibo id="15427">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="15" target_end_1="16" target_polarity_1="POS" target_word_1="&#22823;&#21733;">#90&#21518;&#24403;&#25945;&#25480;#       &#22823;&#21733;&#20320;&#32456;&#20110;&#20026;&#21681;90&#21518;&#20105;&#21475;&#27668;&#20102;&#65292;&#20320;&#26159;&#26368;&#26834;&#30340;&#65281;&#65281;&#65281;</sentence>
+</weibo>
+<weibo id="15428">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_begin_2="48" target_end_1="6" target_end_2="50" target_polarity_1="POS" target_polarity_2="NEG" target_word_1="90&#21518;&#24403;&#25945;&#25480;" target_word_2="&#20960;&#38646;&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#21385;&#23475;&#21568;&#65292;&#25105;&#20204;&#20061;&#38646;&#21518;&#19981;&#21482;&#26159;&#22823;&#23478;&#35828;&#30340;&#37027;&#20040;&#19968;&#25991;&#19981;&#20540;&#30340;&#65292;&#21482;&#26159;&#19968;&#23569;&#37096;&#20998;&#32780;&#24050;&#65292;&#19981;&#33021;&#19968;&#27010;&#32780;&#35770;&#65292;&#20960;&#38646;&#21518;&#20063;&#26377;&#37027;&#31181;&#19968;&#25991;&#19981;&#20540;&#30340;&#20154;&#28195;&#8230;&#8230;</sentence>
+</weibo>
+<weibo id="15434">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#20154;&#25165;&#21834; /p&#29486;&#33457;</sentence>
+</weibo>
+<weibo id="15435">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="6" target_polarity_1="NEG" target_word_1="90&#21518;&#24403;&#25945;&#25480;">#90&#21518;&#24403;&#25945;&#25480;# /&#37145;&#35270; /&#37145;&#35270; /&#37145;&#35270;</sentence>
+</weibo>
+<weibo id="15441">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="4" target_end_1="6" target_polarity_1="POS" target_word_1="90&#21518;">/&#36716;&#22280;#90&#21518;&#24403;&#25945;&#25480;#&#22825;&#25165;&#21834;&#65292;&#20154;&#23478;&#22920;&#22920;&#26159;&#24590;&#20040;&#25226;&#20182;&#29983;&#19979;&#26469;&#30340;&#21602;&#65311;</sentence>
+<sentence id="2" opinionated="Y" polarity="POS" target_begin_1="4" target_end_1="6" target_polarity_1="POS" target_word_1="90&#21518;">&#35201;&#26159;&#20197;&#21518;&#25105;&#23478;&#23453;&#36125;&#20063;&#36825;&#20040;&#32874;&#26126;&#23601;&#22909;&#21862;&#65281;</sentence>
+</weibo>
+<weibo id="15446">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="8" target_end_1="9" target_polarity_1="POS" target_word_1="&#21016;&#36335;">#90&#21518;&#24403;&#25945;&#25480;#&#21016;&#36335;&#22826;&#29275;&#20048;&#20102;&#12290;</sentence>
+</weibo>
+<weibo id="15447">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;# &#29275;&#20154;&#21834;~~~~&#22825;&#25165;~~~</sentence>
+</weibo>
+<weibo id="15457">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#22909;&#65292;&#26377;&#28508;&#21147;</sentence>
+</weibo>
+<weibo id="15458">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#22826;&#31070;&#20102;&#65292;&#19981;&#24871;&#20026;&#25968;&#23398;&#22855;&#25165;&#12290;</sentence>
+</weibo>
+<weibo id="15463">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;# &#20182;&#24456;&#21385;&#23475;&#8230;&#8230;</sentence>
+<sentence id="2" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">&#30830;&#23454;&#26159;&#20154;&#25165;&#21568;&#12290;</sentence>
+</weibo>
+<weibo id="15474">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;# &#33521;&#38596;&#20986;&#23569;&#24180;&#65281;</sentence>
+</weibo>
+<weibo id="15480">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#21385;&#23475;&#21568;&#65292;&#23401;&#23376;&#65292;&#21507;&#21861;&#38271;&#22823;&#30340;&#21602;</sentence>
+</weibo>
+<weibo id="15483">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#29275;A&#21644;&#29275;C&#20043;&#38388;&#12289;</sentence>
+</weibo>
+<weibo id="15487">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#20154;&#23478;&#26377;&#36825;&#20010;&#33021;&#21147;&#21591;&#65292;&#21152;&#27833;&#12290;&#12290;</sentence>
+</weibo>
+<weibo id="15489">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;# /&#24778;&#35766;  &#32673;&#24917;&#21834;&#65281;</sentence>
+</weibo>
+<weibo id="15492">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="6" target_polarity_1="POS" target_word_1="90&#21518;&#24403;&#25945;&#25480;">#90&#21518;&#24403;&#25945;&#25480;#&#19981;&#25304;&#19968;&#26684;&#38477;&#20154;&#25165;&#65281;</sentence>
+<sentence id="2" opinionated="Y" polarity="POS" target_begin_1="16" target_end_1="17" target_polarity_1="POS" target_word_1="&#26657;&#26041;">&#26657;&#26041;&#20570;&#30340;&#22909;&#12290;</sentence>
+</weibo>
+<weibo id="15495">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#21703;&#65292;&#20102;&#19981;&#36215;&#21834;&#65281;~</sentence>
+<sentence id="2" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">&#20329;&#26381;&#65281;</sentence>
+</weibo>
+<weibo id="15500">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="18" target_end_1="21" target_polarity_1="POS" target_word_1="&#36825;&#23567;&#20249;&#23376;">#90&#21518;&#24403;&#25945;&#25480;#&#21018;&#36824;&#30475;&#20102;&#30452;&#25773;&#65292;&#19981;&#38169;&#65292;&#36825;&#23567;&#20249;&#23376;&#26377;&#21069;&#36884;</sentence>
+</weibo>
+<weibo id="15505">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#20154;&#25165;&#21834;&#65292;90&#21518;&#30340;&#22825;&#25165;&#21526;</sentence>
+</weibo>
+<weibo id="15508">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#65306;&#26377;&#24535;&#19981;&#22312;&#24180;&#39640;&#65292;&#26377;&#27700;&#24179;&#23601;&#21487;&#20197;&#12290;</sentence>
+</weibo>
+<weibo id="15509">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#  &#21703;  ~    &#32680;&#24917;&#65281;</sentence>
+</weibo>
+<weibo id="15510">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#21385;&#23475;&#65281;</sentence>
+<sentence id="2" opinionated="N" polarity="NEG">&#21482;&#26377;&#32673;&#24917;&#23241;&#22930;&#20102;&#8230;</sentence>
+</weibo>
+<weibo id="15516">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#20294;&#24895;&#27604;&#38472;&#26223;&#28070;&#26356;&#21152;&#20048;&#35266;&#12289;&#23485;&#24191;&#12289;&#26234;&#24935;&#12289;&#20307;&#20581;&#12289;&#29616;&#23454;&#8230;&#8230;</sentence>
+<sentence id="2" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">/&#24378; /&#39277;</sentence>
+</weibo>
+<weibo id="15723">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="NEG" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#21507;&#23630;&#21834;</sentence>
+</weibo>
+<weibo id="15729">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#27743;&#23665;&#20195;&#26377;&#20154;&#25165;&#20986;&#65292;&#22825;&#25165;&#65281;&#65281;&#65281;</sentence>
+</weibo>
+<weibo id="15730">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#    &#33021;&#20154;&#21834;&#12290;</sentence>
+</weibo>
+<weibo id="15734">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#26082;&#28982;&#26159;&#22855;&#25165;&#65292;&#37027;&#20040;&#24403;&#25945;&#25480;&#20063;&#19981;&#31639;&#36229;&#33539;&#22260;&#12290;</sentence>
+</weibo>
+<weibo id="15736">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="12" target_end_1="13" target_polarity_1="NEG" target_word_1="&#33258;&#24049;">#90&#21518;&#24403;&#25945;&#25480;#&#30636;&#38388;&#21457;&#29616;&#33258;&#24049;&#37027;&#28857;&#20986;&#24687;&#24687;&#30456;&#8230;</sentence>
+</weibo>
+<weibo id="15749">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#30495;&#29275;&#21568;</sentence>
+</weibo>
+<weibo id="15754">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#35841;&#23478;&#30340;&#23401;&#23376;&#21834;&#65292;&#22826;&#21385;&#23475;&#20102;&#65281;</sentence>
+</weibo>
+<weibo id="15758">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="6" target_polarity_1="POS" target_word_1="90&#21518;&#24403;&#25945;&#25480;">#90&#21518;&#24403;&#25945;&#25480;#&#22855;&#36857;&#12289;&#12289;&#12289;</sentence>
+</weibo>
+<weibo id="15759">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#27491;&#25945;&#25480;&#32423;&#30740;&#31350;&#21592; /&#24378;</sentence>
+</weibo>
+<weibo id="15784">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#30495;&#32473;&#25105;&#20204;&#38271;&#33080;</sentence>
+</weibo>
+<weibo id="15799">
+<sentence id="1" opinionated="N" polarity="NEG">#90&#21518;&#24403;&#25945;&#25480;#&#24681;&#12290;</sentence>
+<sentence id="2" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">&#24456;&#24378;&#22823;&#12290;</sentence>
+</weibo>
+<weibo id="15801">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#21508;&#26377;&#25152;&#33021;&#65292;&#19981;&#24471;&#19981;&#26381;&#21834;&#12290;</sentence>
+</weibo>
+<weibo id="15804">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#24378;&#65292;&#21733;&#24456;&#20329;&#26381;&#20182;&#12290;</sentence>
+</weibo>
+<weibo id="15807">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#25968;&#23398;&#30028;&#30340;&#22825;&#25165;&#12290;</sentence>
+<sentence id="2" opinionated="N" polarity="POS">&#32456;&#31350;&#21162;&#21147;&#27604;&#36816;&#27668;&#22810;&#20123;&#12290;</sentence>
+</weibo>
+<weibo id="15808">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#26377;&#25165;&#65281;</sentence>
+</weibo>
+<weibo id="15810">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#26377;&#25165;&#65292;&#26377;&#24503;&#65292;&#26377;&#20309;&#19981;&#21487;&#65311;</sentence>
+</weibo>
+<weibo id="15811">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="NEG" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#24212;&#35797;&#25945;&#32946;&#19979;&#22521;&#20859;&#20986;&#26469;&#30340;&#20608;&#20769;</sentence>
+</weibo>
+<weibo id="15813">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#20154;&#25165; 21&#19990;&#32426;&#26368;&#32570;&#30340;&#23601;&#26159;&#20154;&#25165; &#20540;&#24471;&#25552;&#20513; &#26377;&#26412;&#20107;&#19981;&#35770;&#30007;&#22899;&#32769;&#24188; &#19978;&#21040;99&#19979;&#21040;&#21018;&#20250;&#36208;&#37117;&#21487;&#20197;</sentence>
+</weibo>
+<weibo id="15814">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="8" target_end_1="9" target_polarity_1="POS" target_word_1="&#26657;&#38271;">#90&#21518;&#24403;&#25945;&#25480;#&#26657;&#38271;&#26377;&#36828;&#35265;&#12290;</sentence>
+</weibo>
+<weibo id="15818">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="11" target_end_1="13" target_polarity_1="NEG" target_word_1="&#25945;&#25480; ">#90&#21518;&#24403;&#25945;&#25480;#&#29616;&#22312;&#30340;&#25945;&#25480; &#30495;&#26159;&#36234;&#26469;&#36234;&#19981;&#20540;&#38065;&#20102;&#65281;&#65281;</sentence>
+<sentence id="2" opinionated="N" polarity="NEG">&#30495;&#30340;&#35201;&#24576;&#30097;&#19968;&#19979;&#20182;&#30340;&#21547;&#37329;&#37327;&#20102;&#65281;&#65281;</sentence>
+</weibo>
+<weibo id="15822">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="13" target_end_1="14" target_polarity_1="POS" target_word_1="&#24180;&#20195;">#90&#21518;&#24403;&#25945;&#25480;#&#20154;&#25165;&#36744;&#20986;&#30340;&#24180;&#20195;</sentence>
+</weibo>
+<weibo id="15880">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#25402;&#31934;&#31070;&#30340;&#22043;&#65292;&#24076;&#26395;&#21035;&#31216;&#20070;&#21574;&#23376;or&#31934;&#31070;&#30149;</sentence>
+</weibo>
+<weibo id="15881">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#22826;&#32874;&#26126;&#20102;&#65292;&#19968;&#23450;&#26159;&#31070;&#31461; /&#24378;</sentence>
+</weibo>
+<weibo id="15893">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="6" target_polarity_1="POS" target_word_1="90&#21518;&#24403;&#25945;&#25480;">#90&#21518;&#24403;&#25945;&#25480;#&#22909;&#20107;&#65292;&#19981;&#25304;&#19968;&#26684;&#38477;&#20154;&#25165;</sentence>
+</weibo>
+<weibo id="15897">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="13" target_end_1="15" target_polarity_1="POS" target_word_1="&#23567;&#20249;&#23376;">#90&#21518;&#24403;&#25945;&#25480;#&#24456;&#20329;&#26381;&#36825;&#20010;&#23567;&#20249;&#23376;&#65281;</sentence>
+</weibo>
+<weibo id="15914">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="6" target_polarity_1="POS" target_word_1="90&#21518;&#24403;&#25945;&#25480;">#90&#21518;&#24403;&#25945;&#25480;# /&#24378; /&#24378;</sentence>
+</weibo>
+<weibo id="15917">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#25402;&#29275;&#30340;&#65292;&#24076;&#26395;&#32487;&#32493;&#29275;&#19979;&#21435;&#12290;&#12290;&#12290;</sentence>
+</weibo>
+<weibo id="15921">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#29275;. /&#24378;</sentence>
+</weibo>
+<weibo id="15924">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#25903;&#25345;&#20182;&#65292;&#20182;&#31639;&#26159;&#25105;&#20204;&#20061;&#38646;&#21518;&#30340;&#27036;&#26679;&#65281;</sentence>
+<sentence id="2" opinionated="N" polarity="NEG">&#33267;&#23569;&#20182;&#35777;&#26126;&#20102;&#20061;&#38646;&#21518;&#19981;&#20840;&#26159;&#33041;&#27531;&#65281;</sentence>
+<sentence id="3" opinionated="Y" polarity="NEG" target_begin_1="48" target_end_1="50" target_polarity_1="NEG" target_word_1="&#32769;&#40736;&#23630;">&#23545;&#20110;&#20061;&#38646;&#21518;&#30340;&#37027;&#20960;&#39063;&#32769;&#40736;&#23630;&#65292;&#36947;&#24503;&#25105;&#34920;&#31034;&#25490;&#26021;&#65281;</sentence>
+</weibo>
+<weibo id="15926">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#29275;&#20154;&#21834;&#8230;</sentence>
+</weibo>
+<weibo id="15931">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#25402;&#22909;&#30340;&#65292;</sentence>
+</weibo>
+<weibo id="15936">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#26377;&#24535;&#19981;&#22312;&#24180;&#39640;&#65281;&#65281;&#65281;</sentence>
+</weibo>
+<weibo id="15961">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#30495;&#27491;&#26377;&#25165;&#33021;&#30340;&#20154;&#26159;&#21487;&#20197;&#30340;</sentence>
+</weibo>
+<weibo id="15962">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#20013;&#22269;&#38656;&#35201;&#36825;&#26679;&#30340;&#20154;&#25165;&#65281;</sentence>
+</weibo>
+<weibo id="15976">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="9" target_end_1="14" target_polarity_1="POS" target_word_1="&#36825;&#26679;&#30340;&#20061;&#38646;&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#20687;&#36825;&#26679;&#30340;&#20061;&#38646;&#21518;&#23454;&#22312;&#26159;&#22826;&#23569;&#20102;&#12289;&#24456;&#19981;&#38169;&#65281;</sentence>
+<sentence id="2" opinionated="N" polarity="NEG">&#20854;&#23454;&#24180;&#40836;&#19981;&#26159;&#38382;&#39064;&#12289;&#20851;&#38190;&#26159;&#20182;&#26159;&#21542;&#30495;&#30340;&#26377;&#36825;&#20010;&#23454;&#21147;&#65311;</sentence>
+</weibo>
+<weibo id="15977">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="6" target_polarity_1="POS" target_word_1="90&#21518;&#24403;&#25945;&#25480;">#90&#21518;&#24403;&#25945;&#25480;#&#36825;&#20010;&#19981;&#38169;&#21734;</sentence>
+</weibo>
+<weibo id="15979">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;# &#22826;&#21385;&#23475;&#20102;&#21543;&#8230;</sentence>
+<sentence id="2" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">&#19981;&#24471;&#20102;&#21834;&#65281;</sentence>
+</weibo>
+<weibo id="15987">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#26377;&#33021;&#21147; &#27809;&#20160;&#20040;&#19981;&#21487;&#20197; &#20154;&#25165;&#65374;</sentence>
+</weibo>
+<weibo id="15998">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#22909;&#21385;&#23475; /&#24378;</sentence>
+</weibo>
+<weibo id="15999">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#23398;&#26080;&#21069;&#21518;&#65292;&#36798;&#32773;&#20026;&#24072;&#65292;&#20329;&#26381;&#12290;</sentence>
+<sentence id="2" opinionated="N" polarity="POS">&#25991;&#31185;&#31867;&#23601;&#32477;&#20986;&#19981;&#20102;&#36825;&#20040;&#24180;&#36731;&#30340;&#25945;&#25480;&#12290;</sentence>
+</weibo>
+<weibo id="16000">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#26159;&#20010;&#20154;&#25165;</sentence>
+</weibo>
+<weibo id="16011">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="22" target_end_1="23" target_polarity_1="POS" target_word_1="&#21016;&#36335;">#90&#21518;&#24403;&#25945;&#25480;#&#32769;&#24072;&#26089;&#19978;&#35757;&#20102;&#25105;&#20204;&#19968;&#39039;&#35805;&#65292;&#23601;&#25226;&#21016;&#36335;&#25644;&#20986;&#26469;&#20102;&#65292;&#21385;&#23475;&#65281;</sentence>
+<sentence id="2" opinionated="Y" polarity="POS" target_begin_1="32" target_end_1="33" target_polarity_1="POS" target_word_1="&#21016;&#36335;">&#21016;&#36335;&#26367;&#20320;&#24863;&#21040;&#33258;&#35946;&#65292;&#30495;&#19981;&#30693;&#20320;&#36825;&#19968;&#36335;&#26159;&#24590;&#20040;&#36208;&#26469;&#30340;&#65292;&#20329;&#26381;!!!</sentence>
+</weibo>
+<weibo id="16025">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#26377;&#25165;~&#33021;&#20154;~&#38750;&#19968;&#33324;&#20154;&#19981;&#33021;&#27604;&#30340;&#12290;</sentence>
+<sentence id="2" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">&#21621;~&#36190;&#19968;&#20010;&#20808;&#12290;</sentence>
+<sentence id="3" opinionated="N" polarity="POS">&#24076;&#26395;&#24515;&#29702;&#32032;&#36136;&#36319;&#30693;&#35782;&#33021;&#21010;&#19978;&#31561;&#21495;&#21543;~</sentence>
+</weibo>
+<weibo id="16029">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#30495;&#26834;&#65281;</sentence>
+</weibo>
+<weibo id="16030">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="8" target_end_1="12" target_polarity_1="POS" target_word_1="&#25105;&#20204;&#20061;&#38646;&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#25105;&#20204;&#20061;&#38646;&#21518;&#24471;&#23601;&#26159;&#38712;&#27668;&#65281;</sentence>
+<sentence id="2" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">&#21385;&#23475;&#65281;</sentence>
+</weibo>
+<weibo id="16039">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#36825;&#20040;&#21385;&#23475;~/&#24378;</sentence>
+</weibo>
+<weibo id="16136">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#20154;&#25165;/&#24378;</sentence>
+</weibo>
+<weibo id="16137">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#30456;&#24403;&#30340;&#29275;&#30382;&#21704;</sentence>
+</weibo>
+<weibo id="16138">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="6" target_polarity_1="NEG" target_word_1="90&#21518;&#24403;&#25945;&#25480;">#90&#21518;&#24403;&#25945;&#25480;#&#25199;&#24471;&#24456;</sentence>
+</weibo>
+<weibo id="16139">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;# lQ&#20063;&#22826;&#39640;&#20102;&#21543;&#65292;&#36824;&#35753;&#25105;&#20204;&#24590;&#20040;&#27963;&#21834;</sentence>
+</weibo>
+<weibo id="16140">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="23" target_end_1="24" target_polarity_1="POS" target_word_1="&#21016;&#36335;">#90&#21518;&#24403;&#25945;&#25480;#&#20329;&#26381;&#37027;&#20010;&#25226;&#20154;&#29983;&#35268;&#32435;&#30340;&#22914;&#27492;&#25950;&#20142;&#30340;&#21016;&#36335;&#65281;</sentence>
+<sentence id="2" opinionated="Y" polarity="NEG" target_begin_1="23" target_end_1="24" target_polarity_1="POS" target_word_1="&#21016;&#36335;">&#21681;90&#21518;&#30340;&#39556;&#20658;&#65281;</sentence>
+</weibo>
+<weibo id="16141">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#24456;&#21385;&#23475;&#65292;&#21733;&#20204;&#20329;&#26381;</sentence>
+</weibo>
+<weibo id="16144">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#29275;&#22868;&#21834;&#8230;&#8230;</sentence>
+</weibo>
+<weibo id="16152">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#22810;&#22909;&#21834; &#65292;&#19981;&#35201;&#25361;&#21050;&#20102;&#65292;&#31069;&#31119;&#20182;&#21543;</sentence>
+</weibo>
+<weibo id="16156">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#36825;&#26159;&#23454;&#23454;&#22312;&#22312;&#20026;&#20154;&#31867;&#36827;&#27493;&#20316;&#20986;&#36129;&#29486;&#65281;</sentence>
+<sentence id="2" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">&#31069;&#36154;&#65292;&#20329;&#26381;&#65292;&#23815;&#25308;&#65281;</sentence>
+<sentence id="3" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">&#21069;&#36884;&#26080;&#37327;&#65292;&#32487;&#32493;&#21162;&#21147;&#65281;</sentence>
+<sentence id="4" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">/&#28783;&#31548; /&#24378; /&#40723;&#25484;</sentence>
+</weibo>
+<weibo id="16157">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#25968;&#23398;&#20043;&#22855;&#25165;&#65292;&#22269;&#23478;&#20043;&#26635;&#26753;&#65292;&#30495;&#20035;&#26410;&#26469;&#20043;&#24076;&#26395;&#65292;&#27665;&#26063;&#20043;&#39556;&#20658;&#65292;&#21326;&#22799;&#19968;&#33021;&#20154;&#20063;&#65292;&#22914;&#27492;&#24180;&#36731;&#26377;&#20026;&#24535;&#22763;&#65292;&#22269;&#23478;&#24840;&#22810;&#24840;&#21892;&#65292;&#21017;&#22269;&#21487;&#24378;&#22823;&#65292;&#21326;&#22799;&#20134;&#21487;&#32321;&#33635;&#26124;&#30427;&#12290;</sentence>
+</weibo>
+<weibo id="16166">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#20154;&#25165;&#65292;&#20329;&#26381;&#65281;&#65281;&#65281;</sentence>
+</weibo>
+<weibo id="16174">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#30495;&#26159;&#22825;&#25165;&#21834;&#12290;</sentence>
+<sentence id="2" opinionated="N" polarity="POS">&#20540;&#24471;&#22823;&#23478;&#25903;&#25345;</sentence>
+</weibo>
+<weibo id="16180">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#24378;&#22823;&#30340;&#23401;&#23376;...</sentence>
+<sentence id="2" opinionated="N" polarity="NEG">&#22260;&#35266;&#19968;&#19979;</sentence>
+</weibo>
+<weibo id="16186">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="6" target_polarity_1="NEG" target_word_1="90&#21518;&#24403;&#25945;&#25480;">#90&#21518;&#24403;&#25945;&#25480;# &#30070;&#21483;&#29560;&#65281;</sentence>
+</weibo>
+<weibo id="16190">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="8" target_end_1="10" target_polarity_1="POS" target_word_1="&#20013;&#22269;&#20154;">#90&#21518;&#24403;&#25945;&#25480;#&#20013;&#22269;&#20154;&#20102;&#19981;&#36215;&#12290;</sentence>
+<sentence id="2" opinionated="Y" polarity="POS" target_begin_1="8" target_end_1="10" target_polarity_1="POS" target_word_1="&#20013;&#22269;&#20154;">/&#24378;</sentence>
+</weibo>
+<weibo id="16194">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#38738;&#20986;&#20110;&#34013;&#32988;&#20110;&#34013;&#65292;&#31062;&#22269;&#30340;&#26410;&#26469;&#21518;&#32487;&#26377;&#20154;&#20102;&#65292;&#24456;&#22909;&#21568;&#183;&#183;&#183;&#183;&#183;&#183;</sentence>
+</weibo>
+<weibo id="16199">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="NEG" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#21703;&#65292;&#22909;&#21385;&#23475;&#65288;&#20999;&#65292;&#26377;&#20160;&#20040;&#21385;&#23475;&#65289;</sentence>
+</weibo>
+<weibo id="16203">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#36825;&#30495;&#19981;&#26159;&#19968;&#33324;&#20154;&#65292;&#25968;&#23398;&#37027;&#29609;&#24847;&#65292;&#27809;&#22825;&#20998;&#30495;&#19981;&#34892;</sentence>
+</weibo>
+<weibo id="16206">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#27809;&#21150;&#27861;&#33041;&#23376;&#22909;</sentence>
+</weibo>
+<weibo id="16211">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#26377;&#23454;&#21147;&#12290;</sentence>
+</weibo>
+<weibo id="16212">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#30495;&#26159;&#38271;&#27743;&#21518;&#28010;&#25512;&#21069;&#28010;&#21834;&#65292;&#19968;&#28010;&#25226;&#20182;&#25171;&#22312;&#25945;&#25480;&#30340;&#20301;&#23376;&#19978;&#12290;&#12290;&#12290;</sentence>
+</weibo>
+<weibo id="16214">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#20154;&#23478;&#26377;&#36825;&#20010;&#27700;&#24179;&#65292;&#19981;&#26381;&#19981;&#34892;&#65281;</sentence>
+</weibo>
+<weibo id="16223">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#21482;&#33021;&#35828;&#26159;&#22825;&#25165;</sentence>
+</weibo>
+<weibo id="16232">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#20154;&#25165;&#65507;&#65507;&#8230;</sentence>
+<sentence id="2" opinionated="N" polarity="POS">&#20154;&#37117;&#26159;&#19968;&#20010;&#33041;&#34955;&#65292;&#24590;&#20040;&#26377;&#30340;&#20154;&#33041;&#34955;&#23601;&#37027;&#20040;&#32874;&#26126;&#65292;&#26377;&#30340;&#23601;&#20667;&#24471;&#36830;&#33258;&#24049;&#26159;&#35841;&#37117;&#19981;&#30693;&#36947;&#65292;&#65507;&#65507;</sentence>
+</weibo>
+<weibo id="16233">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#22914;&#27492;&#33021;&#20154;&#65292;&#24403;&#20043;&#26080;&#24871;!</sentence>
+<sentence id="2" opinionated="Y" polarity="POS" target_begin_1="18" target_end_1="19" target_polarity_1="POS" target_word_1="&#21016;&#36335;">&#21016;&#36335;&#25402;&#36215;&#65281;</sentence>
+</weibo>
+<weibo id="16237">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="8" target_end_1="11" target_polarity_1="NEG" target_word_1="&#20013;&#21335;&#22823;&#23398;">#90&#21518;&#24403;&#25945;&#25480;#&#20013;&#21335;&#22823;&#23398;&#21719;&#20247;&#21462;&#23456;&#25300;&#33495;&#21161;&#38271;</sentence>
+</weibo>
+<weibo id="16240">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#21518;&#29983;&#21487;&#30031;&#21568;&#65281;</sentence>
+<sentence id="2" opinionated="N" polarity="POS">&#31038;&#20250;&#21457;&#23637;&#24517;&#39035;&#35201;&#26377;&#21518;&#21551;&#20043;&#31168;&#65292;</sentence>
+</weibo>
+<weibo id="16244">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#30495;&#26377;&#26412;&#20107;</sentence>
+</weibo>
+<weibo id="16295">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="5" target_end_1="6" target_polarity_1="NEG" target_word_1="&#25945;&#25480;">#90&#21518;&#24403;&#25945;&#25480;#&#23545;&#21568;&#37117;&#26159;&#19968;&#32676;&#20667;&#36924;</sentence>
+</weibo>
+<weibo id="16302">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="44" target_end_1="46" target_polarity_1="NEG" target_word_1="&#20061;&#38646;&#21518;">:#90&#21518;&#24403;&#25945;&#25480;# &#28779;&#20102; &#29616;&#22312;&#29275;&#20102; &#19981;&#30693;&#36947;&#20197;&#21518;&#20250;&#19981;&#20250;&#20063;&#20081;&#25630; &#26159;&#20154;&#25165;&#26159;&#34850;&#25165; &#20197;&#21518;&#23601;&#30693;&#36947;&#20102; &#20061;&#38646;&#21518;&#26412;&#26469;&#23601;&#24456;&#30127;&#29378; &#22823;&#23478;&#21448;&#19981;&#26159;&#19981;&#25026;</sentence>
+</weibo>
+<weibo id="16310">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#39069;&#65292;&#27036;&#26679;&#21834;</sentence>
+</weibo>
+<weibo id="16312">
+<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="3" target_polarity_1="POS" target_word_1="90&#21518;">#90&#21518;&#24403;&#25945;&#25480;#&#21999;&#21999;&#65292;&#25903;&#25345;&#25903;&#25345;&#65281;</sentence>
+</weibo>
+<weibo id="16317">
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="9" target_end_1="10" target_polarity_1="POS" target_word_1="&#21016;&#36335;">#90&#21518;&#24403;&#25945;&#25480;#&#20687;&#21016;&#36335;&#23398;&#20064;&#65281;&#65281;&#65281;</sentence>
+</weibo>
+</Result>
