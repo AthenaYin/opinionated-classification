@@ -115,7 +115,7 @@
 </weibo>
 <weibo id="25694">
 <sentence id="1" opinionated="N" polarity="POS">#&#30382;&#38795;&#26524;&#20923;#&#21710;&#21568; &#24590;&#20040;&#35828;&#21602;  &#65281;</sentence>
-<sentence id="2" opinionated="Y" polarity="NEG" target_begin_1="26" target_end_1="32" target_polarity_1="NEG" target_word_1="&#36825;&#20010;&#30382;&#38795;&#26524;&#20923; ">&#24895;&#24847;&#21507;&#26524;&#20923;&#26159;&#30495;&#30340;  &#36825;&#20010;&#30382;&#38795;&#26524;&#20923; &#35753;&#25105;&#24515;&#23506;&#21834; &#24590;&#20040;&#29616;&#22312;&#30340;&#19996;&#35199;&#36824;&#33021;&#21507;&#21527;&#65311;</sentence>
+<sentence id="2" opinionated="Y" polarity="POS" target_begin_1="26" target_end_1="32" target_polarity_1="NEG" target_word_1="&#36825;&#20010;&#30382;&#38795;&#26524;&#20923; ">&#24895;&#24847;&#21507;&#26524;&#20923;&#26159;&#30495;&#30340;  &#36825;&#20010;&#30382;&#38795;&#26524;&#20923; &#35753;&#25105;&#24515;&#23506;&#21834; &#24590;&#20040;&#29616;&#22312;&#30340;&#19996;&#35199;&#36824;&#33021;&#21507;&#21527;&#65311;</sentence>
 </weibo>
 <weibo id="25699">
 <sentence id="1" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="4" target_polarity_1="NEG" target_word_1="&#30382;&#38795;&#26524;&#20923;">#&#30382;&#38795;&#26524;&#20923;#&#22914;&#27492;&#29462;&#29527;&#65292;&#24212;&#31215;&#26497;&#25171;&#20987;</sentence>
@@ -258,7 +258,7 @@
 </weibo>
 <weibo id="26020">
 <sentence id="1" opinionated="N" polarity="POS">#&#30382;&#38795;&#26524;&#20923;#=&#12290;</sentence>
-<sentence id="2" opinionated="Y" polarity="POS" target_begin_1="1" target_end_1="4" target_polarity_1="NEG" target_word_1="&#30382;&#38795;&#26524;&#20923;">= &#22826;&#34507;&#30140;&#20102;</sentence>
+<sentence id="2" opinionated="Y" polarity="NEG" target_begin_1="1" target_end_1="4" target_polarity_1="NEG" target_word_1="&#30382;&#38795;&#26524;&#20923;">= &#22826;&#34507;&#30140;&#20102;</sentence>
 </weibo>
 <weibo id="26049">
 <sentence id="1" opinionated="Y" polarity="POS" target_begin_1="2" target_end_1="2" target_polarity_1="NEG" target_word_1="&#38795;">#&#30382;&#38795;&#26524;&#20923;#&#26089;&#26377;&#32819;&#38395;&#65292;&#29978;&#35273;&#24694;&#24515;&#65281;</sentence>

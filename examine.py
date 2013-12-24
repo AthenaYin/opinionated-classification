@@ -15,8 +15,8 @@ D = 0.0
 f1 = open('FN.txt', 'w')
 f2 = open('FP.txt', 'w')
 
-for filename in os.listdir('count1ans/'):
-    tree1 = ET.parse('count1ans/' + filename)
+for filename in os.listdir('bayesans/'):
+    tree1 = ET.parse('bayesans/' + filename)
     tree2 = ET.parse('ans/' + filename)
     root1 = tree1.getroot()
     root2 = tree2.getroot()

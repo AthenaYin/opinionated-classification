@@ -6,7 +6,7 @@ import os
 from sklearn import svm
 
 
-NOF = 7  # the number of features
+NOF = 34  # the number of features
 numofsen = []  # the number of sentences
 numofsen.append(0)
 vecfeature = []
@@ -19,7 +19,7 @@ target = []
 for line in vecfeature:
     data.append(line[:-1])
     target.append(line[NOF])
-clf = svm.SVC(kernel='rbf', C=0.3, gamma=1.4)
+clf = svm.SVC(kernel='rbf', C=0.707, gamma=0.707)
 clf.fit(data, target)
 
 

@@ -185,7 +185,7 @@
 <sentence id="2" opinionated="N" polarity="POS">/&#25317;&#25265;</sentence>
 </weibo>
 <weibo id="5628">
-<sentence id="1" opinionated="Y" polarity="POS" target_begin_1="10" target_end_1="11" target_polarity_1="NEG" target_word_1="&#31038;&#20250;">#&#30127;&#29378;&#30340;&#22823;&#33905;#&#24754;&#20652;&#30340;&#31038;&#20250;</sentence>
+<sentence id="1" opinionated="Y" polarity="NEG" target_begin_1="10" target_end_1="11" target_polarity_1="NEG" target_word_1="&#31038;&#20250;">#&#30127;&#29378;&#30340;&#22823;&#33905;#&#24754;&#20652;&#30340;&#31038;&#20250;</sentence>
 </weibo>
 <weibo id="5630">
 <sentence id="1" opinionated="N" polarity="POS">#&#30127;&#29378;&#30340;&#22823;&#33905;# &#19981;&#20026;&#21035;&#30340;&#12289;&#20165;&#27492;&#32780;&#24050;~&#65281;</sentence>

@@ -7,9 +7,9 @@ import random
 
 
 def getopn(wlist):
-	if wlist[0] > 0:
+	if wlist[0] > 0.0:
 		return 1
-	elif wlist[0] < 0:
+	elif wlist[0] < 0.0:
 		return 0
 	else:
 		return random.choice([0, 1])

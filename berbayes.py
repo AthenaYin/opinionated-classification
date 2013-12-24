@@ -5,7 +5,7 @@ import os
 from sklearn.naive_bayes import BernoulliNB
 
 
-NOF = 7  # the number of features
+NOF = 34 # the number of features
 numofsen = []  # the number of sentences
 numofsen.append(0)
 vecfeature = []

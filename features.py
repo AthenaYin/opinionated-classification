@@ -163,36 +163,46 @@ def wishword(wordlist):
                 return 1
     return 0
 
-def numsenword(wordlist):
+def numsenword(mlist, wordlist):
     reload(sys)
     sys.setdefaultencoding('utf-8')
-    cc = 0
-    print wordlist
-    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'negsen.txt', 'r')
+    cc = 0.0
+    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'newnegsen.txt', 'r')
     for line in f:
         line = line.strip()
-        if line in wordlist:  # ignore one-character word in the wordnet
-            cc += -wordlist.count(line)
+        if line in wordlist:  
+            cc += wordlist.count(line)
+            mlist.append(1)
+        else:
+            mlist.append(0)
     f.close()
-    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'possen.txt', 'r')
+    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'newpossen.txt', 'r')
+    for line in f:
+        line = line.strip()
+        if line in wordlist:  
+            cc += wordlist.count(line)
+            mlist.append(1)
+        else:
+            mlist.append(0)
+    f.close()
+#    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNewPosSen.txt', 'r')
 #    for line in f:
 #        line = line.strip()
-#        if line in wordlist:  # ignore one-character word in the wordnet
+#        if line in wordlist:  
 #            cc += wordlist.count(line)
+#            mlist.append(1)
+#        else:
+#            mlist.append(0)
 #    f.close()
-#    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewPosSen.txt', 'r')
+#    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNewNegSen.txt', 'r')
 #    for line in f:
 #        line = line.strip()
-#        if line in wordlist:  # ignore one-character word in the wordnet
-#            cc += wordlist.count(line)
+#        if line in wordlist:  
+#            cc += -wordlist.count(line) 
+#            mlist.append(1)
+#        else:
+#            mlist.append(0)
 #    f.close()
-#    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNegSen.txt', 'r')
-#    for line in f:
-#        line = line.strip()
-#        if line in wordlist:  # ignore one-character word in the wordnet
-#            cc += -wordlist.count(line)
-#    f.close()
-    print cc
     return cc
 
 def getfeatures(sen):
@@ -202,9 +212,10 @@ def getfeatures(sen):
         print repr(sen)
         raise
     sen = sen.strip()
-    sen = '|'.join(jieba.cut(sen))
+#    sen = '|'.join(jieba.cut(sen))
     mlist = []
-    mlist.append(numsenword(sen))
+    numsenword(mlist, sen)
+#    mlist.append(numsenword(sen))
 #    mlist.append(senword(sen))
 #    mlist.append(pronoun(sen))
 #    mlist.append(claims(sen))
