@@ -1,6 +1,6 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
-import jieba
+#import jieba
 import re
 import sys
 import os
@@ -170,7 +170,7 @@ def numsenword(mlist, wordlist):
     f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'newnegsen.txt', 'r')
     for line in f:
         line = line.strip()
-        if line in wordlist:  
+        if line in wordlist:
             cc += wordlist.count(line)
             mlist.append(1)
         else:
@@ -179,7 +179,7 @@ def numsenword(mlist, wordlist):
     f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'newpossen.txt', 'r')
     for line in f:
         line = line.strip()
-        if line in wordlist:  
+        if line in wordlist:
             cc += wordlist.count(line)
             mlist.append(1)
         else:
@@ -188,7 +188,7 @@ def numsenword(mlist, wordlist):
 #    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNewPosSen.txt', 'r')
 #    for line in f:
 #        line = line.strip()
-#        if line in wordlist:  
+#        if line in wordlist:
 #            cc += wordlist.count(line)
 #            mlist.append(1)
 #        else:
@@ -197,8 +197,8 @@ def numsenword(mlist, wordlist):
 #    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNewNegSen.txt', 'r')
 #    for line in f:
 #        line = line.strip()
-#        if line in wordlist:  
-#            cc += -wordlist.count(line) 
+#        if line in wordlist:
+#            cc += -wordlist.count(line)
 #            mlist.append(1)
 #        else:
 #            mlist.append(0)
