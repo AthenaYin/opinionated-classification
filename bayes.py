@@ -4,7 +4,7 @@ from r import readxml
 import os
 
 
-NOF = 17  # the number of features
+NOF = 34  # the number of features
 numofsen = []  # the number of sentences
 numofsen.append(0)
 vecfeature = []

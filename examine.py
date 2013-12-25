@@ -14,10 +14,11 @@ D = 0.0
 
 f1 = open('FN.txt', 'w')
 f2 = open('FP.txt', 'w')
+cc = 0
 
-for filename in os.listdir('bayesans/'):
-    tree1 = ET.parse('bayesans/' + filename)
-    tree2 = ET.parse('ans/' + filename)
+for filename in os.listdir('svmans/'):
+    tree1 = ET.parse('svmans/' + filename)
+    tree2 = ET.parse('newtestdata/' + filename)
     root1 = tree1.getroot()
     root2 = tree2.getroot()
     for child1 in root1:
@@ -31,8 +32,10 @@ for filename in os.listdir('bayesans/'):
                                 flag = 1
                         if flag == 0:
                             continue
-                        print "test"
                         if childd1.tag == 'sentence' and childd2.attrib['id'] == childd1.attrib['id']:
+                            cc += 1
+                            if cc % 1000 == 0:
+                                print 'yes'
                             if childd1.attrib['polarity'] == 'POS':
                                 if childd2.attrib['polarity'] == 'POS':
                                     A += 1
@@ -58,8 +61,8 @@ print r1
 print 'f'
 print 2 * p1 * r1 / (p1 + r1)
 print 'neg'
-p2 = C / (A + C)
-r2 = C / (C + D)
+p2 = D / (B + D)
+r2 = D / (C + D)
 print 'precision:'
 print p2
 print 'recall'

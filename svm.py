@@ -6,20 +6,20 @@ import os
 from sklearn import svm
 
 
-NOF = 34  # the number of features
+NOF = 161  # the number of features
 numofsen = []  # the number of sentences
 numofsen.append(0)
 vecfeature = []
-for filename in os.listdir(r'traindata/'):
+for filename in os.listdir(r'newtraindata/'):
     print 'in svm.py ' + filename
-    vecfeature += readxml('traindata/' + filename, numofsen)  # append all traindata together
+    vecfeature += readxml('newtraindata/' + filename, numofsen)  # append all traindata together
 
 data = []
 target = []
 for line in vecfeature:
     data.append(line[:-1])
     target.append(line[NOF])
-clf = svm.SVC(kernel='rbf', C=0.707, gamma=0.707)
+clf = svm.SVC(kernel='rbf', C=0.5, gamma=1)
 clf.fit(data, target)
 
 

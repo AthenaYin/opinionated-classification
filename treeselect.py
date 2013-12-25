@@ -4,7 +4,7 @@ import os
 from r import readxml
 import cmath
 
-NOF = 1665
+NOF = 1665 
 numofsen = []  # the number of sentences
 numofsen.append(0)
 vecfeature = []
@@ -50,11 +50,15 @@ for i in range(0, NOF):
     IGt[i] += ((PCnott * cmath.log(PCnott, 2)) + (PnotCnott * cmath.log(PnotCnott, 2))) * Pnott
 mlist = []
 print t
+ccc = 0
 for i in range(0, NOF):
-    if t[i] > 10.0:
-        print t[i]
-        print i
-
+    if t[i] > 10:
+        ccc += 1
+        if i < 1038:
+            print i + 1
+        else:
+            print i + 1 - 1038 
+print ccc
 print mlist
 #print IGt
 # vim: sw=4 ts=4 sts=4 expandtab

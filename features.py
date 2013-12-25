@@ -171,8 +171,9 @@ def numsenword(mlist, wordlist):
     f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'newnegsen.txt', 'r')
     for line in f:
         line = line.strip()
-        if line in wordlist:
-            cc += wordlist.count(line)
+        if len(line) > 3 and line in wordlist:
+            print line
+            cc += -wordlist.count(line)
             mlist.append(1)
         else:
             mlist.append(0)
@@ -180,30 +181,33 @@ def numsenword(mlist, wordlist):
     f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'newpossen.txt', 'r')
     for line in f:
         line = line.strip()
-        if line in wordlist:
+        if len(line) > 3 and line in wordlist:
+            print line
             cc += wordlist.count(line)
             mlist.append(1)
         else:
             mlist.append(0)
     f.close()
-#    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNewPosSen.txt', 'r')
-#    for line in f:
-#        line = line.strip()
-#        if line in wordlist:
-#            cc += wordlist.count(line)
-#            mlist.append(1)
-#        else:
-#            mlist.append(0)
-#    f.close()
-#    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNewNegSen.txt', 'r')
-#    for line in f:
-#        line = line.strip()
-#        if line in wordlist:
-#            cc += -wordlist.count(line)
-#            mlist.append(1)
-#        else:
-#            mlist.append(0)
-#    f.close()
+    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNewPosSen.txt', 'r')
+    for line in f:
+        line = line.strip()
+        if line in wordlist:
+            print line
+            cc += wordlist.count(line)
+            mlist.append(1)
+        else:
+            mlist.append(0)
+    f.close()
+    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNewNegSen.txt', 'r')
+    for line in f:
+        line = line.strip()
+        if line in wordlist:
+            print line
+            cc += -wordlist.count(line)
+            mlist.append(1)
+        else:
+            mlist.append(0)
+    f.close()
     return cc
 
 def getfeatures(sen):
@@ -215,8 +219,9 @@ def getfeatures(sen):
     sen = sen.strip()
 #    sen = '|'.join(jieba.cut(sen))
     mlist = []
+    tmp = []
     numsenword(mlist, sen)
-#    mlist.append(numsenword(sen))
+#    mlist.append(numsenword(tmp, sen))
 #    mlist.append(senword(sen))
 #    mlist.append(pronoun(sen))
 #    mlist.append(claims(sen))

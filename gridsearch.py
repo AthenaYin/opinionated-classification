@@ -6,7 +6,7 @@ from sklearn.cross_validation import KFold
 from sklearn import svm, grid_search
 
 
-NOF = 34
+NOF = 70 
 numofsen = []
 numofsen.append(0)
 vecfeature = []
@@ -15,14 +15,20 @@ for filename in os.listdir('traindata/'):
     vecfeature += readxml('traindata/' + filename, numofsen)
 X = []
 y = []
+
+i = 0
 for line in vecfeature:
+    i += 1
     X.append(line[:-1])
     y.append(line[NOF])
+print X
+print y
+print i
 kf = KFold(len(y), n_folds=10)
 para = []
 i = 1.0
-for i in range(1, 5):
-    mi = -1 + 0.5 * i
+for i in range(1, 24):
+    mi = -5 + 0.25 * i
     ans = 2 ** mi
     para.append(ans)
 param_grid = {'C': para, 'gamma': para, 'kernel': ['rbf']}

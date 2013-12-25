@@ -6,27 +6,28 @@ from svm import getopn
 import os
 
 
-RAW_FILES = os.listdir('ans/')
+RAW_FILES = os.listdir('newtestdata/')
 
 
 cc = 0
 for filename in RAW_FILES:
     print 'in execute.py ' + filename
-    tree = ET.parse('ans/' + filename)
+    tree = ET.parse('newtestdata/' + filename)
     root = tree.getroot()
     for child in root:
         for childd in child:
             if childd.tag != 'sentence':
                 continue
-            cc += 1
             if childd.text is None:
-                childd.attrib['polarity'] = 'NEG'
                 continue
+#            print childd.text
             wlist = getfeatures(childd.text)
+#            print wlist[0]
             if getopn(wlist):
                 childd.attrib['polarity'] = 'POS'
             else:
                 childd.attrib['polarity'] = 'NEG'
+            cc += 1
     tree.write('svmans/' + filename)
 
 print cc
