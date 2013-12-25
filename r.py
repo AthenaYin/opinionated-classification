@@ -14,8 +14,14 @@ def readxml(namexml, numofsen):
         for childd in child:  # traverse every sentence
             if childd.tag != 'sentence':
                 continue
+            flag = 0
+            for st in childd.attrib:
+                if st == 'polarity':
+                    flag = 1
+            if flag == 0:
+                continue
             mlist = getfeatures(childd.text)  # for every sentence in the xml, get their feature to form a feature vector
-            if childd.attrib['opinionated'] == 'Y':
+            if childd.attrib['polarity'] == 'Y':
                 mlist.append(1)
             else:
                 mlist.append(0)

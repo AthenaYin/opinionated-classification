@@ -6,7 +6,7 @@ from sklearn.cross_validation import KFold
 from sklearn import svm, grid_search
 
 
-NOF = 34 
+NOF = 34
 numofsen = []
 numofsen.append(0)
 vecfeature = []

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import xml.etree.ElementTree as ET
 from features import getfeatures
-from bayes import getopn
+from svm import getopn
 import os
 
 
@@ -27,7 +27,7 @@ for filename in RAW_FILES:
                 childd.attrib['polarity'] = 'POS'
             else:
                 childd.attrib['polarity'] = 'NEG'
-    tree.write('bayesans/' + filename)
+    tree.write('svmans/' + filename)
 
 print cc
 

@@ -19,8 +19,8 @@ for i in range(0, NOF):
     IGt.append(0.0)
     t.append(0.0)
 temp = []
-for filename in os.listdir(r'ans/'):
-    temp = readxml('ans/' + filename, numofsen)
+for filename in os.listdir(r'newtestdata/'):
+    temp = readxml('newtestdata/' + filename, numofsen)
     for line in temp:
         if line[NOF] == 1:
             C += 1
@@ -41,7 +41,7 @@ print Ct
 for i in range(0, NOF):
     Pt = (t[i] + 1) / (C + notC + 1)
     Pnott = 1 - Pt
-    PCt = (Ct[i] + 1) / (t[i] +1)
+    PCt = (Ct[i] + 1) / (t[i] + 1)
     PnotCt = 1 - PCt
     PCnott = (C - Ct[i] + 1) / (C + notC - Ct[i] + 1)
     PnotCnott = 1 - PCnott

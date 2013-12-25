@@ -163,6 +163,7 @@ def wishword(wordlist):
                 return 1
     return 0
 
+
 def numsenword(mlist, wordlist):
     reload(sys)
     sys.setdefaultencoding('utf-8')
