@@ -19,6 +19,7 @@ target = []
 for line in vecfeature:
     data.append(line[:-1])
     target.append(line[NOF])
+print target
 clf = svm.SVC(kernel='rbf', C=0.5, gamma=1)
 clf.fit(data, target)
 
