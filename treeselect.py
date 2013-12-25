@@ -4,7 +4,7 @@ import os
 from r import readxml
 import cmath
 
-NOF = 1665 
+NOF = 1665
 numofsen = []  # the number of sentences
 numofsen.append(0)
 vecfeature = []
