@@ -6,7 +6,7 @@ import os
 from sklearn import svm
 
 
-NOF = 161  # the number of features
+NOF = 1893 # the number of features
 numofsen = []  # the number of sentences
 numofsen.append(0)
 vecfeature = []

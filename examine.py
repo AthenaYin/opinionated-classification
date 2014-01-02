@@ -26,11 +26,7 @@ for filename in os.listdir('svmans/'):
             if child2.attrib['id'] == child1.attrib['id']:
                 for childd1 in child1:
                     for childd2 in child2:
-                        flag = 0
-                        for st in childd2.attrib:
-                            if st == 'polarity':
-                                flag = 1
-                        if flag == 0:
+                        if not childd2.attrib.has_key('polarity'):
                             continue
                         if childd1.tag == 'sentence' and childd2.attrib['id'] == childd1.attrib['id']:
                             cc += 1
