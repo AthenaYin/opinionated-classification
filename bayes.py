@@ -4,13 +4,13 @@ from r import readxml
 import os
 
 
-NOF = 34  # the number of features
+NOF = 161  # the number of features
 numofsen = []  # the number of sentences
 numofsen.append(0)
 vecfeature = []
-for filename in os.listdir(r'traindata/'):
+for filename in os.listdir(r'newtraindata/'):
     print 'in bayes.py ' + filename
-    vecfeature += readxml('traindata/' + filename, numofsen)  # append all traindata together
+    vecfeature += readxml('newtraindata/' + filename, numofsen)  # append all traindata together
 countop = 0.0
 for line in vecfeature:
     if line[NOF] == 1:
@@ -21,6 +21,8 @@ py = countop / numofsen[0]
 """
 compare two vectors
 """
+
+
 def same(src, dest):
     for i in range(0, NOF):
         if src[i] != dest[i]:

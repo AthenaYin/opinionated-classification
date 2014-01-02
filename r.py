@@ -17,6 +17,7 @@ def readxml(namexml, numofsen):
             if not childd.attrib.has_key('polarity'):
 			    continue
             mlist = getfeatures(childd.text)  # for every sentence in the xml, get their feature to form a feature vector
+            print childd.attrib['polarity']
             if childd.attrib['polarity'] == 'POS':
                 mlist.append(1)
             else:

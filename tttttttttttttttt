@@ -1,110 +1,3 @@
-count:
-hownet
-244.0 163.0 836.0 964.0
-pos
-precision:
-0.225925925926
-recall
-0.599508599509
-f
-0.328177538668
-neg
-precision:
-0.85536823425
-recall
-0.535555555556
-f
-0.658694909464
-
-hownet + newword
-243.0 164.0 822.0 978.0
-pos
-precision:
-0.228169014085
-recall
-0.597051597052
-f
-0.330163043478
-neg
-precision:
-0.856392294221
-recall
-0.543333333333
-f
-0.664853840925
-
-svm:
-slimed hownet:
-5.0 402.0 13.0 1787.0
-pos
-precision:
-0.277777777778
-recall
-0.012285012285
-f
-0.0235294117647
-neg
-precision:
-0.816354499772
-recall
-0.992777777778
-f
-0.895963900727
-
-slimed + newword
-5.0 402.0 13.0 1787.0
-pos
-precision:
-0.277777777778
-recall
-0.012285012285
-f
-0.0235294117647
-neg
-precision:
-0.816354499772
-recall
-0.992777777778
-f
-0.895963900727
-
-bayes:
-slimed hownet:
-22.0 385.0 72.0 1728.0
-pos
-precision:
-0.234042553191
-recall
-0.0540540540541
-f
-0.0878243512974
-neg
-precision:
-0.817794604827
-recall
-0.96
-f
-0.883209813442
-
-slimed hownet + newword
-25.0 382.0 97.0 1703.0
-pos
-precision:
-0.204918032787
-recall
-0.0614250614251
-f
-0.0945179584121
-neg
-precision:
-0.816786570743
-recall
-0.946111111111
-f
-0.876705276705
-
-
-
 new corpus:
 hownet:
 4015.0 2130.0 1773.0 1776.0
@@ -209,7 +102,75 @@ f
 
 svm:
 newly slimed hownet:
+6086.0 59.0 3374.0 175.0
+pos
+precision:
+0.64334038055
+recall
+0.990398698129
+f
+0.780006408202
+neg
+precision:
+0.747863247863
+recall
+0.0493096646943
+f
+0.0925191646841
 
+newly slimed hownet + newly slimed newword:
+6090.0 55.0 3335.0 214.0
+pos
+precision:
+0.646153846154
+recall
+0.991049633849
+f
+0.782273603083
+neg
+precision:
+0.795539033457
+recall
+0.0602986756833
+f
+0.112100576218
+
+
+bayes:
+1
+5902.0 243.0 3264.0 285.0
+pos
+precision:
+0.643901374645
+recall
+0.960455655004
+f
+0.770948990922
+neg
+precision:
+0.539772727273
+recall
+0.0803043110735
+f
+0.139808682855
+2
+5900.0 245.0 3183.0 366.0
+pos
+precision:
+0.649565121656
+recall
+0.960130187144
+f
+0.774888363541
+neg
+precision:
+0.599018003273
+recall
+0.103127641589
+f
+0.175961538462
+
+<<<<<<< HEAD
 newly slimed hownet + newly slimed newword:
 
 
@@ -298,3 +259,5 @@ f
 
 
 
+=======
+>>>>>>> 25ad022ca5980a05ff2d0f8b33186c5430cd7331
