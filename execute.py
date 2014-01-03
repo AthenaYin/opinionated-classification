@@ -28,7 +28,7 @@ for filename in RAW_FILES:
             else:
                 childd.attrib['polarity'] = 'NEG'
             cc += 1
-    tree.write('bayesans/' + filename)
+    tree.write('svmans/' + filename)
 
 print cc
 

@@ -9,7 +9,6 @@ def readxml(namexml, numofsen):
     tree = ET.parse(namexml)
     root = tree.getroot()
     slist = []
-    print root.tag
     for child in root:  # traverse every weibo
         for childd in child:  # traverse every sentence
             if childd.tag != 'sentence':
@@ -17,7 +16,6 @@ def readxml(namexml, numofsen):
             if not childd.attrib.has_key('polarity'):
 			    continue
             mlist = getfeatures(childd.text)  # for every sentence in the xml, get their feature to form a feature vector
-            print childd.attrib['polarity']
             if childd.attrib['polarity'] == 'POS':
                 mlist.append(1)
             else:

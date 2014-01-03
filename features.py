@@ -168,41 +168,37 @@ def numsenword(mlist, wordlist):
     reload(sys)
     sys.setdefaultencoding('utf-8')
     cc = 0.0
-    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'negsen.txt', 'r')
+    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'newnegsen.txt', 'r')
     for line in f:
         line = line.strip()
         if len(line) > 3 and line in wordlist:
-            print line
             cc += -wordlist.count(line)
             mlist.append(1)
         else:
             mlist.append(0)
     f.close()
-    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'possen.txt', 'r')
+    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'newpossen.txt', 'r')
     for line in f:
         line = line.strip()
         if len(line) > 3 and line in wordlist:
-            print line
             cc += wordlist.count(line)
             mlist.append(1)
         else:
             mlist.append(0)
     f.close()
-    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewPosSen.txt', 'r')
+    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNewPosSen.txt', 'r')
     for line in f:
         line = line.strip()
         if line in wordlist:
-            print line
             cc += wordlist.count(line)
             mlist.append(1)
         else:
             mlist.append(0)
     f.close()
-    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNegSen.txt', 'r')
+    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNewNegSen.txt', 'r')
     for line in f:
         line = line.strip()
         if line in wordlist:
-            print line
             cc += -wordlist.count(line)
             mlist.append(1)
         else:
