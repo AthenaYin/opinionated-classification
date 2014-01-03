@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import xml.etree.ElementTree as ET
 from features import getfeatures
-from bayes import getopn
+from svm import getopn
 import os
 
 
