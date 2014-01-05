@@ -16,8 +16,8 @@ f1 = open('FN.txt', 'w')
 f2 = open('FP.txt', 'w')
 cc = 0
 
-for filename in os.listdir('svmans/'):
-    tree1 = ET.parse('svmans/' + filename)
+for filename in os.listdir('count1ans/'):
+    tree1 = ET.parse('count1ans/' + filename)
     tree2 = ET.parse('newtestdata/' + filename)
     root1 = tree1.getroot()
     root2 = tree2.getroot()
@@ -65,5 +65,7 @@ print 'recall'
 print r2
 print 'f'
 print 2 * p2 * r2 / (p2 + r2)
+print 'accuracy:'
+print (A + D) * 1.0 / (A + B + C + D)
 
 # vim: sw=4 ts=4 sts=4 expandtab

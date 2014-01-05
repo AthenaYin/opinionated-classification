@@ -4,7 +4,7 @@ import os
 from r import readxml
 import cmath
 
-NOF = 1665 
+NOF = 1665
 numofsen = []  # the number of sentences
 numofsen.append(0)
 vecfeature = []
@@ -19,8 +19,8 @@ for i in range(0, NOF):
     IGt.append(0.0)
     t.append(0.0)
 temp = []
-for filename in os.listdir(r'newtestdata/'):
-    temp = readxml('newtestdata/' + filename, numofsen)
+for filename in os.listdir(r'newtraindata/'):
+    temp = readxml('newtraindata/' + filename, numofsen)
     for line in temp:
         if line[NOF] == 1:
             C += 1
@@ -35,9 +35,9 @@ for filename in os.listdir(r'newtestdata/'):
 PC = C / (C + notC)
 PnotC = 1-PC
 HC = - (PC * cmath.log(PC, 2)) - (PnotC * cmath.log(PnotC, 2))
-print C, notC
-print t
-print Ct
+#print C, notC
+#print t
+#print Ct
 for i in range(0, NOF):
     Pt = (t[i] + 1) / (C + notC + 1)
     Pnott = 1 - Pt
@@ -49,16 +49,16 @@ for i in range(0, NOF):
     IGt[i] += ((PCt * cmath.log(PCt, 2)) + (PnotCt * cmath.log(PnotCt, 2))) * Pt
     IGt[i] += ((PCnott * cmath.log(PCnott, 2)) + (PnotCnott * cmath.log(PnotCnott, 2))) * Pnott
 mlist = []
-print t
+#print t
 ccc = 0
 for i in range(0, NOF):
-    if t[i] > 10:
+    if t[i] >= 2:
         ccc += 1
         if i < 1038:
             print i + 1
         else:
-            print i + 1 - 1038 
+            print i + 1 - 1038
 print ccc
-print mlist
+#print mlist
 #print IGt
 # vim: sw=4 ts=4 sts=4 expandtab

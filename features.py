@@ -186,7 +186,25 @@ def numsenword(mlist, wordlist):
         else:
             mlist.append(0)
     f.close()
-    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNewPosSen.txt', 'r')
+#    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewPosSen.txt', 'r')
+#    for line in f:
+#        line = line.strip()
+#        if line in wordlist:
+#            cc += wordlist.count(line)
+#            mlist.append(1)
+#        else:
+#            mlist.append(0)
+#    f.close()
+#    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNegSen.txt', 'r')
+#    for line in f:
+#        line = line.strip()
+#        if line in wordlist:
+#            cc += -wordlist.count(line)
+#            mlist.append(1)
+#        else:
+#            mlist.append(0)
+#    f.close()
+    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'top100pos.txt', 'r')
     for line in f:
         line = line.strip()
         if line in wordlist:
@@ -195,7 +213,7 @@ def numsenword(mlist, wordlist):
         else:
             mlist.append(0)
     f.close()
-    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'NewNewNegSen.txt', 'r')
+    f = open(os.path.dirname(os.path.abspath(__file__)) + '/senword/' + 'top100neg.txt', 'r')
     for line in f:
         line = line.strip()
         if line in wordlist:
@@ -205,6 +223,7 @@ def numsenword(mlist, wordlist):
             mlist.append(0)
     f.close()
     return cc
+
 
 def getfeatures(sen):
     try:
@@ -216,8 +235,8 @@ def getfeatures(sen):
 #    sen = '|'.join(jieba.cut(sen))
     mlist = []
     tmp = []
-    numsenword(mlist, sen)
-#    mlist.append(numsenword(tmp, sen))
+#    numsenword(mlist, sen)
+    mlist.append(numsenword(tmp, sen))
 #    mlist.append(senword(sen))
 #    mlist.append(pronoun(sen))
 #    mlist.append(claims(sen))
